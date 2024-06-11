@@ -27,15 +27,18 @@ public partial class Lab_4 : System.Web.UI.Page
 
     protected void btnRemove_Click(object sender, EventArgs e)
     {
-        // Remove the selected item from the CheckBoxList
-        for (int i = 0; i < chkCountryList.Items.Count; i++)
+        string countryCode = txtCountryCode.Text;
+
+        // Remove from CheckBoxList
+        ListItem itemToRemove = chkCountryList.Items.FindByValue(countryCode);
+        if (itemToRemove != null)
         {
-            if (chkCountryList.Items[i].Selected)
-            {
-                chkCountryList.Items.RemoveAt(i);
-                i--; // Decrement i to adjust for the removed item
-            }
+            chkCountryList.Items.Remove(itemToRemove);
         }
+
+        // Clear textboxes
+        txtCountryName.Text = "";
+        txtCountryCode.Text = "";
     }
 
     protected void btnDisplay_Click(object sender, EventArgs e)
