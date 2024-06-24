@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TA Asp.Net Framework\\StudentRegistrationForm\\",
+  "WorkspaceRootPath": "E:\\TA\\BCA DOT NET\\lab_2_3_6\\StudentRegistrationForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D36AFD02-342E-4D39-A8E8-E82570254121}|StudentRegistrationForm.csproj|D:\\TA Asp.Net Framework\\StudentRegistrationForm\\demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D36AFD02-342E-4D39-A8E8-E82570254121}|StudentRegistrationForm.csproj|e:\\ta\\bca dot net\\lab_2_3_6\\studentregistrationform\\demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D36AFD02-342E-4D39-A8E8-E82570254121}|StudentRegistrationForm.csproj|solutionrelative:demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D36AFD02-342E-4D39-A8E8-E82570254121}|StudentRegistrationForm.csproj|d:\\ta asp.net framework\\studentregistrationform\\demo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D36AFD02-342E-4D39-A8E8-E82570254121}|StudentRegistrationForm.csproj|E:\\TA\\BCA DOT NET\\lab_2_3_6\\StudentRegistrationForm\\demo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D36AFD02-342E-4D39-A8E8-E82570254121}|StudentRegistrationForm.csproj|solutionrelative:demo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,28 +22,27 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Demo.aspx.cs",
-              "DocumentMoniker": "D:\\TA Asp.Net Framework\\StudentRegistrationForm\\Demo.aspx.cs",
+              "DocumentMoniker": "E:\\TA\\BCA DOT NET\\lab_2_3_6\\StudentRegistrationForm\\Demo.aspx.cs",
               "RelativeDocumentMoniker": "Demo.aspx.cs",
-              "ToolTip": "D:\\TA Asp.Net Framework\\StudentRegistrationForm\\Demo.aspx.cs",
+              "ToolTip": "E:\\TA\\BCA DOT NET\\lab_2_3_6\\StudentRegistrationForm\\Demo.aspx.cs",
               "RelativeToolTip": "Demo.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:17:27.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:17:27.008Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Demo.aspx",
-              "DocumentMoniker": "D:\\TA Asp.Net Framework\\StudentRegistrationForm\\Demo.aspx",
+              "DocumentMoniker": "E:\\TA\\BCA DOT NET\\lab_2_3_6\\StudentRegistrationForm\\Demo.aspx",
               "RelativeDocumentMoniker": "Demo.aspx",
-              "ToolTip": "D:\\TA Asp.Net Framework\\StudentRegistrationForm\\Demo.aspx",
+              "ToolTip": "E:\\TA\\BCA DOT NET\\lab_2_3_6\\StudentRegistrationForm\\Demo.aspx",
               "RelativeToolTip": "Demo.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
