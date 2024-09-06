@@ -5,17 +5,14 @@ public partial class Lab_4 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!IsPostBack)
-        {
-            // Initialize the CheckBoxList here if needed
-        }
+
     }
 
     protected void btnAdd_Click(object sender, EventArgs e)
     {
         string countryName = txtCountryName.Text;
         string countryCode = txtCountryCode.Text;
-        string listItemText = $"{countryName} ({countryCode})";
+        string listItemText = countryName + countryCode;
 
         // Add to CheckBoxList
         chkCountryList.Items.Add(new ListItem(listItemText, countryCode));

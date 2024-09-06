@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace WebApplication10
 {
@@ -36,25 +37,39 @@ namespace WebApplication10
 
         protected void btnRemove_Click(object sender, EventArgs e)
         {
-            string countryName = txtCountryName.Text.Trim();
-            string countryCode = txtCountryCode.Text.Trim();
 
-            string countryItem = $"{countryName} ({countryCode})";
-            var itemToRemove = lstCountries.Items.FindByText(countryItem);
-
-            if (itemToRemove != null)
+            ListBox selectedItems = new ListBox();
+            foreach (ListItem li in lstCountries.Items)
             {
-                lstCountries.Items.Remove(itemToRemove);
+                if (li.Selected)
+                {
+                    selectedItems.Items.Add(li);
+                }
+            }
 
-                // Clear the textboxes after removing
-                txtCountryName.Text = string.Empty;
-                txtCountryCode.Text = string.Empty;
-            }
-            else
+            foreach (ListItem li in selectedItems.Items)
             {
-                // Handle case when the item is not found
-                // You can add a message to notify the user if needed
+                lstCountries.Items.Remove(li);
             }
+            //string countryName = txtCountryName.Text.Trim();
+            //string countryCode = txtCountryCode.Text.Trim();
+
+            //string countryItem = $"{countryName} ({countryCode})";
+            //var itemToRemove = lstCountries.Items.FindByText(countryItem);
+
+            //if (itemToRemove != null)
+            //{
+            //    lstCountries.Items.Remove(itemToRemove);
+
+            //    // Clear the textboxes after removing
+            //    txtCountryName.Text = string.Empty;
+            //    txtCountryCode.Text = string.Empty;
+            //}
+            //else
+            //{
+            //    // Handle case when the item is not found
+            //    // You can add a message to notify the user if needed
+            //}
         }
     }
 }

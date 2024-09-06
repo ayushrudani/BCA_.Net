@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9F8A48-0133-4865-ADD4-41676E98956A}|MasterPageDemo.csproj|e:\\ta\\bca dot net\\masterpagedemo\\_layout.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{AF9F8A48-0133-4865-ADD4-41676E98956A}|MasterPageDemo.csproj|solutionrelative:_layout.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9F8A48-0133-4865-ADD4-41676E98956A}|MasterPageDemo.csproj|e:\\ta\\bca dot net\\masterpagedemo\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF9F8A48-0133-4865-ADD4-41676E98956A}|MasterPageDemo.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF9F8A48-0133-4865-ADD4-41676E98956A}|MasterPageDemo.csproj|e:\\ta\\bca dot net\\masterpagedemo\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AF9F8A48-0133-4865-ADD4-41676E98956A}|MasterPageDemo.csproj|solutionrelative:about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\Home.aspx",
+              "RelativeDocumentMoniker": "Home.aspx",
+              "ToolTip": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\Home.aspx",
+              "RelativeToolTip": "Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T04:41:23.051Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.aspx",
+              "DocumentMoniker": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\About.aspx",
+              "RelativeDocumentMoniker": "About.aspx",
+              "ToolTip": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\About.aspx",
+              "RelativeToolTip": "About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T04:43:13.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.Master",
+              "DocumentMoniker": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\_Layout.Master",
+              "RelativeDocumentMoniker": "_Layout.Master",
+              "ToolTip": "E:\\TA\\BCA DOT NET\\MasterPageDemo\\_Layout.Master",
+              "RelativeToolTip": "_Layout.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T04:35:52.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

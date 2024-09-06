@@ -32,7 +32,7 @@
             </div>
             <div class="form-group row">
                 <div class="col-sm-10 offset-sm-2">
-                    <asp:ListBox ID="lstCountries" CssClass="form-control" runat="server" Rows="10" />
+                    <asp:ListBox ID="lstCountries" CssClass="form-control" SelectionMode="Multiple" runat="server" Rows="10" />
                 </div>
             </div>
         </div>
